@@ -53,10 +53,13 @@ async def on_message(message):
         return
 
     if message.channel.name == 'bot-testing':
+        # Hello
         if message.content.lower() == '!hello':
             await message.channel.send(f'Hello {username}! {hello_message}')
+        # Help
         elif message.content.startswith(f'!help'):
             await message.channel.send(help_message)
+        # Add
         elif message.content.startswith(f'!add'):
             user_ASIN = user_message.split(' ', 1)[1]
             if user_ASIN[:2] != 'B0':
@@ -72,12 +75,15 @@ async def on_message(message):
             await objects_list[num_of_objects].get_info()
             await objects_list[num_of_objects].set_desired_price()
             await message.channel.send(f'```ASIN: {objects_list[num_of_objects].ASIN}\n{str(objects_list[num_of_objects].title)}\nCurrent Price: ${objects_list[num_of_objects].price}\nDesired Price: ${objects_list[num_of_objects].desired_price}\n```')
+            await message.channel.send(f'```PLEASE WAIT 2 MINUTES ')
+        # List
         elif message.content.startswith(f'!list'):
             if len(objects_list) > 0:
                 for item in objects_list:
                     await message.channel.send(f'```{item.ASIN}\n{item.title}\n{item.desired_price}\n{item.price}```') 
             else:
                 await message.channel.send(f'`List is currently empty!`')
+        # Remove
         elif message.content.startswith(f'!remove'):    
             user_ASIN = user_message.split(' ', 1)[1]
             if user_ASIN[:2] != 'B0':
@@ -89,10 +95,12 @@ async def on_message(message):
                     objects_list.remove(item)
                     num_of_objects -= 1
                     await message.channel.send(f'`ASIN: {ASIN} has been removed!`')
+        # Clear
         elif message.content.startswith(f'!clear'):    
             objects_list.clear()   
             await message.channel.send(f'`List has been cleared!`')
             num_of_objects = -1
+        # Count
         elif message.content.startswith(f'!count'):
             count = len(objects_list)
             await message.channel.send(f'`Count: {count}`')
@@ -117,7 +125,7 @@ async def price_alert():
                     channel = discord.utils.get(client.guilds[0].channels, name='bot-testing') 
                     current_time = int(datetime.datetime.now().strftime("%I"))
                     await channel.send(f'```PRICE DROP! {title}\nFrom desired price: ${desired_price}\nTo new price: ${price}```')
-        await asyncio.sleep(60)
+        await asyncio.sleep(1800)
 
 client.loop.create_task(price_alert())
 
@@ -144,3 +152,4 @@ client.run(os.getenv('DISCORD_TOKEN'))
     #     elif message.content.startswith(f'!ASIN'):
     #         for asin, title in zip(ASIN_list, title_list):
     #             await message.channel.send(f'```{asin} {title}```')   
+
