@@ -1,0 +1,10 @@
+git+https://github.com/Rapptz/discord.py
+PyNaCl==1.3.0
+pandas
+requests-html
+python-dotenv
+nest_asyncio
+asyncio
+pyppeteer
+dnspython==1.16.0
+async-timeout==3.0.1
