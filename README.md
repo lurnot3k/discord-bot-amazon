@@ -83,7 +83,7 @@ While there are many other tools that do the same (namely CamelCamelCamel), I pr
 
 ### Built With
 
-* [Discird.py](https://pypi.org/project/discord.py/)
+* [Discord.py](https://pypi.org/project/discord.py/)
 
 * [Nest-Asyncio](https://pypi.org/project/nest-asyncio/)
 
