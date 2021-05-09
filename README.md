@@ -131,7 +131,8 @@ You MUST install the following:
     
     [![Token Screen Shot][token-screenshot]](https://github.com/ryanhejs/discord-bot-amazon)
 
-4. Add the Discord bot to your server with (REPLACE: YOUR_ID_HERE with your bot token) [https://discord.com/api/oauth2/authorize?client_id=YOUR_ID_HERE&permissions=523328&scope=bot](https://discord.com/api/oauth2/authorize?client_id=YOUR_ID_HERE&permissions=523328&scope=bot)
+4. Add the Discord bot to your server with (REPLACE: YOUR_ID_HERE with your bot token) 
+   [https://discord.com/api/oauth2/authorize?client_id=YOUR_ID_HERE&permissions=523328&scope=bot](https://discord.com/api/oauth2/authorize?client_id=YOUR_ID_HERE&permissions=523328&scope=bot)
 
 5. Run the bot
    ```Run the bot locally
