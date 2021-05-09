@@ -102,7 +102,7 @@ You MUST install the following:
   ```sh
   pip install requests-html
   ```
-  * nest-asyncio
+* nest-asyncio
   ```sh
   pip install nest-asyncio
   ```
