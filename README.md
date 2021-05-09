@@ -77,7 +77,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/ryanhejs/discord-bot-amazon)
 
-This is a fun little project I built to track some of my favourite Amazon items with my friends. While there are many other tools that do the same (namely CamelCamelCamel), I prefer to be notified on Discord, where I can also monitor certain items with my friends!
+This is a fun little project I built to track some of my favourite Amazon items with my friends. 
+While there are many other tools that do the same (namely CamelCamelCamel), I prefer to be notified on Discord, where I can also monitor certain items with my friends!
 
 
 ### Built With
