@@ -87,6 +87,8 @@ While there are many other tools that do the same (namely CamelCamelCamel), I pr
 
 * [Nest-Asyncio](https://pypi.org/project/nest-asyncio/)
 
+* [Requests-html](https://docs.python-requests.org/projects/requests-html/en/latest/)
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
