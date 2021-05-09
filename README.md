@@ -121,7 +121,7 @@ You MUST install the following:
    Fork this repl at [https://replit.com/@ryanhejs/DiscordBot](https://replit.com/@ryanhejs/DiscordBot)
    
 3. Create an .env and add:
-  * TOKEN
+   TOKEN
     ```sh
     TOKEN = YOUR_TOKEN_AS_IS
     ```
