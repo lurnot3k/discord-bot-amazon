@@ -20,6 +20,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 ![Maintaner](https://img.shields.io/badge/maintainer-theMaintainer-blue)
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
 
 
 <!-- PROJECT LOGO -->
