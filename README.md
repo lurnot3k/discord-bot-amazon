@@ -110,21 +110,35 @@ You MUST install the following:
 ### Usage
 
 1. Create a new Discord Bot Application at [https://discord.com/developers/applications](https://discord.com/developers/applications)
+
 2. Clone the repo
    ```sh
    git clone https://github.com/ryanhejs/discord-bot-amazon.git
    ```
+   OR
+   
+   Fork this repl at [https://replit.com/@ryanhejs/DiscordBot](https://replit.com/@ryanhejs/DiscordBot)
+   
 3. Create an .env and add:
-  * DISCORD_TOKEN
+  * TOKEN
     ```sh
-    DISCORD_TOKEN = YOUR_TOKEN_AS_IS
+    TOKEN = YOUR_TOKEN_AS_IS
     ```
+    OR 
+    
+    Add your bot token in Repl
+    
+    [![Token Screen Shot][token-screenshot]](https://github.com/ryanhejs/discord-bot-amazon)
+
 4. Add the Discord bot to your server with (REPLACE: YOUR_ID_HERE with your bot token) [https://discord.com/api/oauth2/authorize?client_id=YOUR_ID_HERE&permissions=523328&scope=bot](https://discord.com/api/oauth2/authorize?client_id=YOUR_ID_HERE&permissions=523328&scope=bot)
+
 5. Run the bot
    ```Run the bot locally
    python panda.py
    ```
-
+   OR
+   
+   Run on Repl
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -151,4 +165,5 @@ Project Link: [https://github.com/ryanhejs/discord-bot-amazon](https://github.co
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ryanhejs
 [product-screenshot]: images/ss.png
+[token-screenshot]]: images/token.png
 
