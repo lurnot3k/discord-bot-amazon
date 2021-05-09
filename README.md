@@ -166,5 +166,5 @@ Project Link: [https://github.com/ryanhejs/discord-bot-amazon](https://github.co
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ryanhejs
 [product-screenshot]: images/ss.png
-[token-screenshot]]: images/token.png
+[token-screenshot]: images/token.png
 
